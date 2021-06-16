@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Days+One&family=Lexend+Deca&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Days+One&family=Lexend+Deca&family=Monoton&family=Red+Hat+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: rgb(114, 111, 111);
+/* Netflix Navbar Style */
+}
+
+/* Netflix Top-header style */
+header::before{
+  content: "";
+  background: url('https://wallpapercave.com/wp/wp5985621.jpg') no-repeat center center/cover,rgba(0, 0, 0, 0.219);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-blend-mode: multiply;
+} 
+
+.homepage{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  
+}
+.homepage a{
+  margin: 40px;
+}
+.smallbutton{
+  background-color: red;
+  height: 35px;
+  width: 80px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Red Hat Text', sans-serif;
+  border-radius: 6px;
+}
+.homepage span{
+  margin: 40px;
+}
+.homepage h3{
+  height: 40px ;
+  color: red;
+  font-size: 2.2rem;
+  font-family: 'Audiowide', cursive;
+}
+.homepage1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+}
+.homepage1 h1{
+  margin: 20px;
+  margin-top: 40px;
+  font-size: 2.7rem;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  /* border: 1px solid red; */
+
+}
+.homepage1 h2{
+  margin: 20px;
+  /* border: 1px solid red; */
+  font-size: 1.9rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.homepage1 h3{
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  font-size: 1.5rem ;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+.homepage2{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+.homepage2 input{
+  height: 50px;
+  width: 700px;
+  padding-left: 20px;
+  border: none;
+  font-size: 1.4rem;
+}
+button{
+  height: 50px;
+  width: 150px;
+  font-size: 1.3rem;
+  font-family: 'Red Hat Text', sans-serif;
+  color: white;
+  background-color: red;
+  border: none;
+  
+}
+
+
+
+/* Netflix Card style */
+.Middle{
+  background-color: rgb(53, 44, 44);
+  margin-top: 142px;
+}
+.Middle h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  color: white;
+  /* background-color: black; */
+  height: 80px;
+  padding: 5px;
+
+}
+
+.Card{
+  display: inline-flex;
+  width: 360px; ;
+  margin-top: 76px;
+  margin-bottom: 76px;
+  margin-left: 68px;
+  margin-right: auto;
+ 
+}
+.Innercard{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.Innercard img{
+  height: 380px;
+  width: 360px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  /* border: 2px solid green; */
+}
+.cardInfo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6px;
+  width: 360px;
+  background-color: black;
+  border-left: 1px gray;
+  border-right: 1px gray;
+  border-bottom: 1px gray;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.cardInfo h2{
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  color: white;
+
+}
+.cardInfo h4{
+  font-size: 1.3rem;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-weight: lighter;
+
+}
+.cardInfo button{
+  width: 95px;
+  margin-top: 20px;
+  margin-bottom: 27px;
+  padding: 5px;
+
+
+}
+.InformationUs{
+  background-color: rgb(53, 44, 44);
+  margin-top: 23px;
+}
+.InformationUs div{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: white;
+  padding: 40px;
+  font-family: 'Red Hat Text', sans-serif;
+}
